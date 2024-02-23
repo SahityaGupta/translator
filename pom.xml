@@ -61,10 +61,9 @@
                 <version>3.3.0</version> <!-- Use the version appropriate for your project -->
                 <configuration>
                     <archive>
-                        <manifestEntries>
-                            <Main-Class>org.springframework.boot.loader.JarLauncher</Main-Class>
-                            <Start-Class>com.twf.Main</Start-Class>
-                        </manifestEntries>
+                        <manifest>
+                            <mainClass>com.twf.Main</mainClass>
+                        </manifest>
                     </archive>
                 </configuration>
             </plugin>
