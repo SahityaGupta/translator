@@ -2,6 +2,7 @@ openapi: 3.0.0
 info:
   title: translate-api
   version: 1.0.0
+x-wso2-disable-security: true
 servers:
   - url: http://localhost:8080
 paths:
